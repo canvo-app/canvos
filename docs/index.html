@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Canvo — AI Agent + Canvas + Linux Sandbox</title>
+    <meta name="description"
+        content="Canvo turns your phone into a full AI workstation. Live interactive canvas, Linux sandbox with 300+ commands, and unlimited tools — all on your phone.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;500&family=Outfit:wght@400;500;600;700;800&family=Inter:wght@400;500;600&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <!-- Phosphor Icons -->
+    <script src="https://unpkg.com/@phosphor-icons/web"></script>
+</head>
+
+<body>
+    <div class="ambient-glow"></div>
+    <div class="ambient-glow secondary"></div>
+
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="logo">
+                <img src="assets/logo.png" alt="Canvo Logo">
+                <span>Canvo</span>
+            </div>
+            <div class="nav-links">
+                <a href="#pillars">Features</a>
+                <a href="#screenshots">Screenshots</a>
+                <a href="#privacy">Privacy</a>
+            </div>
+            <a href="#download" class="btn btn-primary btn-small">Get Canvo</a>
+        </div>
+    </nav>
+
+    <!-- ═══════════════ HERO ═══════════════ -->
+    <header class="hero">
+        <div class="hero-content fade-in-up">
+            <div class="badge"><i class="ph ph-rocket-launch"></i> Closed Beta — Android</div>
+            <h1 class="hero-title">Your agent.<br><span class="gradient-text">Your Canvas.</span><br>Your phone.</h1>
+            <p class="hero-subtitle">Canvo turns your phone into a full AI workstation. A live interactive canvas, a
+                Linux sandbox, and unlimited tools — powered by any LLM you choose.</p>
+            <div class="hero-actions">
+                <a href="#download" class="btn btn-primary">
+                    <i class="ph-bold ph-google-play-logo"></i>
+                    Get the Beta
+                </a>
+                <a href="#pillars" class="btn btn-secondary">
+                    <i class="ph-bold ph-stack"></i>
+                    Explore Features
+                </a>
+            </div>
+        </div>
+        <div class="hero-visual fade-in-up delay-1">
+            <div class="glass-container">
+                <img src="assets/presentation.png" alt="Canvo App" class="mockup-img hero-banner">
+                <div class="floating-badge fb-1">
+                    <i class="ph-fill ph-paint-brush-broad"></i> Live A2UI Canvas
+                </div>
+                <div class="floating-badge fb-2">
+                    <i class="ph-fill ph-terminal-window"></i> Linux Sandbox
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- ═══════════════ THREE PILLARS ═══════════════ -->
+    <section id="pillars" class="features section">
+        <div class="section-header fade-in-up">
+            <h2>Three <span class="gradient-text">Superpowers</span></h2>
+            <p>Not a chatbot. A full agent with a visual canvas, a Linux environment, and tools that multiply.</p>
+        </div>
+
+        <div class="pillar-grid">
+            <!-- PILLAR 1: CANVAS -->
+            <div class="pillar-card glass-panel fade-in-up">
+                <div class="pillar-number">01</div>
+                <div class="icon-wrapper"><i class="ph-duotone ph-paint-brush-broad"></i></div>
+                <h3>The Canvas</h3>
+                <p class="pillar-tagline">Your agent renders. You interact.</p>
+                <ul class="pillar-features">
+                    <li>Cards, charts, tables, forms, toggles, progress bars</li>
+                    <li>Animated D3 visualizations with real-time controls</li>
+                    <li>Quizzes, interactive maps, mini-games</li>
+                    <li>Every response is a living workspace</li>
+                </ul>
+                <div class="pillar-screenshot">
+                    <img src="assets/screenshot2.jpg" alt="Canvas UI" loading="lazy">
+                </div>
+            </div>
+
+            <!-- PILLAR 2: LINUX SANDBOX -->
+            <div class="pillar-card glass-panel fade-in-up delay-1">
+                <div class="pillar-number">02</div>
+                <div class="icon-wrapper"><i class="ph-duotone ph-terminal-window"></i></div>
+                <h3>Linux Sandbox</h3>
+                <p class="pillar-tagline">A real shell on your phone.</p>
+                <ul class="pillar-features">
+                    <li>300+ Unix commands — grep, awk, curl, wget…</li>
+                    <li>Install Python, Node.js, Git, FFmpeg, and more</li>
+                    <li>Build full web apps that run locally</li>
+                    <li>Persistent workspace across sessions</li>
+                </ul>
+                <div class="pillar-screenshot">
+                    <img src="assets/screenshot4.jpg" alt="Linux Sandbox" loading="lazy">
+                </div>
+            </div>
+
+            <!-- PILLAR 3: TOOLS -->
+            <div class="pillar-card glass-panel fade-in-up delay-2">
+                <div class="pillar-number">03</div>
+                <div class="icon-wrapper"><i class="ph-duotone ph-wrench"></i></div>
+                <h3>Unlimited Tools</h3>
+                <p class="pillar-tagline">If a tool doesn't exist, the agent builds it.</p>
+                <ul class="pillar-features">
+                    <li>Web search, calendar, contacts, clipboard</li>
+                    <li>File I/O, notifications, TTS, timers</li>
+                    <li>Self-building tool scripts — saved and reused</li>
+                    <li>Heartbeat: scheduled autonomous tasks</li>
+                </ul>
+                <div class="pillar-screenshot">
+                    <img src="assets/screenshot5.jpg" alt="Tools" loading="lazy">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ═══════════════ SHOWCASE: HEARTBEAT + MEMORY ═══════════════ -->
+    <section class="showcase section align-center">
+        <div class="showcase-visual fade-in-up">
+            <div class="glass-container large">
+                <img src="assets/screenshot1.jpg" alt="Canvo in action" class="mockup-img full-width">
+            </div>
+        </div>
+        <div class="showcase-content fade-in-up delay-1">
+            <h2>Always <span class="gradient-text">Working</span></h2>
+            <p>Canvo isn't just reactive. Schedule autonomous agent tasks that fire throughout the day. Your agent wakes
+                up, reads your notes, searches the web, and sends notifications — without you touching the screen.</p>
+            <ul class="feature-list">
+                <li><i class="ph-bold ph-clock-clockwise"></i> <strong>Heartbeat:</strong> Autonomous scheduled tasks
+                </li>
+                <li><i class="ph-bold ph-brain"></i> <strong>Memory:</strong> Persistent knowledge base that grows</li>
+                <li><i class="ph-bold ph-bell-ringing"></i> <strong>Proactive:</strong> Morning briefings, reminders,
+                    standups</li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- ═══════════════ SCREENSHOT GALLERY ═══════════════ -->
+    <section id="screenshots" class="section">
+        <div class="section-header fade-in-up">
+            <h2>See it in <span class="gradient-text">Action</span></h2>
+            <p>Use case screenshots from the app !</p>
+        </div>
+        <div class="gallery-wrapper fade-in-up delay-1">
+            <button class="gallery-arrow gallery-prev" aria-label="Previous" onclick="galleryPrev()">
+                <i class="ph-bold ph-caret-left"></i>
+            </button>
+            <div class="gallery-viewport">
+                <div class="gallery-track" id="galleryTrack">
+                    <img src="assets/screenshot1.jpg" alt="Morning Briefing" loading="lazy"
+                        onclick="openLightbox(this)">
+                    <img src="assets/screenshot2.jpg" alt="Vocab Drill" loading="lazy" onclick="openLightbox(this)">
+                    <img src="assets/screenshot3.jpg" alt="Schedule Conflict" loading="lazy"
+                        onclick="openLightbox(this)">
+                    <img src="assets/screenshot4.jpg" alt="Email Draft" loading="lazy" onclick="openLightbox(this)">
+                    <img src="assets/screenshot5.jpg" alt="Budget Dashboard" loading="lazy"
+                        onclick="openLightbox(this)">
+                    <img src="assets/screenshot6.jpg" alt="Canvas UI" loading="lazy" onclick="openLightbox(this)">
+                    <img src="assets/screenshot7.jpg" alt="Tools" loading="lazy" onclick="openLightbox(this)">
+                    <img src="assets/screenshot8.jpg" alt="Settings" loading="lazy" onclick="openLightbox(this)">
+                    <img src="assets/screenshot9.jpg" alt="Apps Panel" loading="lazy" onclick="openLightbox(this)">
+                    <img src="assets/screenshot10.jpg" alt="Memory" loading="lazy" onclick="openLightbox(this)">
+                    <img src="assets/screenshot11.jpg" alt="Heartbeat" loading="lazy" onclick="openLightbox(this)">
+                    <img src="assets/screenshot12.jpg" alt="Provider Settings" loading="lazy"
+                        onclick="openLightbox(this)">
+                    <img src="assets/screenshot13.jpg" alt="Multi-Provider" loading="lazy" onclick="openLightbox(this)">
+                </div>
+            </div>
+            <button class="gallery-arrow gallery-next" aria-label="Next" onclick="galleryNext()">
+                <i class="ph-bold ph-caret-right"></i>
+            </button>
+        </div>
+        <div class="gallery-dots" id="galleryDots"></div>
+    </section>
+
+    <!-- ═══════════════ LIGHTBOX ═══════════════ -->
+    <div class="lightbox-overlay" id="lightbox" onclick="closeLightbox()">
+        <button class="lightbox-close" aria-label="Close">&times;</button>
+        <button class="lightbox-arrow lightbox-prev" aria-label="Previous"
+            onclick="event.stopPropagation(); lightboxPrev()">
+            <i class="ph-bold ph-caret-left"></i>
+        </button>
+        <img id="lightboxImg" src="" alt="Screenshot enlarged" onclick="event.stopPropagation()">
+        <button class="lightbox-arrow lightbox-next" aria-label="Next"
+            onclick="event.stopPropagation(); lightboxNext()">
+            <i class="ph-bold ph-caret-right"></i>
+        </button>
+    </div>
+
+    <!-- ═══════════════ PRIVACY ═══════════════ -->
+    <section id="privacy" class="features section">
+        <div class="section-header fade-in-up">
+            <h2>Your Keys. <span class="gradient-text">Your Data.</span></h2>
+            <p>No account. No subscription. Nothing touches our servers.</p>
+        </div>
+        <div class="feature-grid">
+            <div class="feature-card glass-panel fade-in-up">
+                <div class="icon-wrapper"><i class="ph-duotone ph-key"></i></div>
+                <h3>Bring Your Own Keys</h3>
+                <p>OpenAI, Anthropic, Google Gemini, Groq, Mistral, or any OpenAI-compatible endpoint. Ollama, LM
+                    Studio, OpenRouter — all supported.</p>
+            </div>
+            <div class="feature-card glass-panel fade-in-up delay-1">
+                <div class="icon-wrapper"><i class="ph-duotone ph-shield-check"></i></div>
+                <h3>Local-First</h3>
+                <p>All conversations, files, and agent memory stay on your device. Works offline with local models. No
+                    cloud sync required.</p>
+            </div>
+            <div class="feature-card glass-panel fade-in-up delay-2">
+                <div class="icon-wrapper"><i class="ph-duotone ph-arrows-left-right"></i></div>
+                <h3>Multi-Provider</h3>
+                <p>Switch between providers per session. Use the best model for the task. Google OAuth sign-in for
+                    Gemini — no API key needed.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- ═══════════════ CTA ═══════════════ -->
+    <section id="download" class="cta-section section">
+        <div class="glass-panel cta-panel fade-in-up">
+            <h2>Your AI workstation.<br>In your pocket.</h2>
+            <p>Currently in closed beta. Built for developers, tinkerers, and power users.</p>
+            <div class="cta-buttons">
+                <button class="btn btn-primary large">
+                    <i class="ph-fill ph-google-play-logo"></i>
+                    Join the Beta
+                </button>
+            </div>
+            <p class="footnote monospace">Android 13+ · arm64-v8a · No account required</p>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-brand">
+                <div class="logo">
+                    <img src="assets/logo.png" alt="Canvo Logo">
+                    <span>Canvo</span>
+                </div>
+                <p>AI agent with live canvas, Linux sandbox, and unlimited tools — on your phone.</p>
+            </div>
+            <div class="footer-links">
+                <div class="link-column">
+                    <h4>Resources</h4>
+                    <a href="privacy.html">Privacy Policy</a>
+                    <a href="terms.html">Terms of Service</a>
+                </div>
+                <div class="link-column">
+                    <h4>Contact</h4>
+                    <a href="mailto:dev@canvo.cloud">dev@canvo.cloud</a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom monospace">
+            <p>&copy; 2026 Canvo App. Built for builders.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
