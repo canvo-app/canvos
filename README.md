@@ -58,6 +58,16 @@ Chat naturally, and the agent renders your world: **dashboards, charts, quizzes,
 - Self-building tool scripts — saved and reused
 - **Heartbeat**: scheduled autonomous tasks
 
+## 🎬 Teaser
+
+<p align="center">
+  <a href="https://youtube.com/shorts/OIUUt01Jmas">
+    <img src="https://img.youtube.com/vi/OIUUt01Jmas/maxresdefault.jpg" width="300" alt="Canvo Teaser" />
+  </a>
+  <br>
+  <sub>▶️ Tap to watch on YouTube</sub>
+</p>
+
 ## 📱 Screenshots
 
 <p align="center">
